@@ -11,9 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2E7BD4B9-B141-4962-B2E4-C67E7DE78FCD}</ProjectGuid>
+    <ProjectGuid>{2942986A-FA73-488B-9FD9-15EA26DB1572}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>STLPlayground</RootNamespace>
+    <RootNamespace>Functional</RootNamespace>
+    <ProjectName>SmallestN</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,7 +80,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="STLPlayground.cpp" />
+    <ClCompile Include="SmallestN.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
